@@ -1,0 +1,325 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1111px;
+}
+.wrap {
+    background-image: url(./img/Rectangle\ 3.png);
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding: 20px;
+}
+
+.header__options {
+    padding: 20px;
+}
+
+.header__logo {
+    object-fit: covr;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+
+}
+
+.content p {
+    color: #fff;
+}
+
+.content h1 {
+    color: #fff;
+    font-size: 40px;
+}
+
+.content h3 {
+    color: #fff;
+}
+
+.content h4 {
+    color: #fff;
+}
+
+.price {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.content__left {
+    padding-top: 70px;
+}
+
+.content__left h1 {
+    font-size: 80px;
+    width: 450px;
+    font-weight: 1900;
+    margin: -20px 0px;
+}
+
+.content__left p {
+    font-size: 30px;
+}
+
+.content__left button {
+    padding: 20px 50px;
+    border: none;
+    border-radius: 20px;
+    color: red;
+    font-size: 20px;
+}
+
+.content__left button:hover {
+    background-color: #DE5150;
+    border: solid 2px white;
+    color: white;
+}
+
+.price h3 {
+    font-size: 45px;
+}
+
+.price h4 {
+    font-size: 37px;
+    text-decoration: line-through;
+}
+.section {
+    text-align: center;
+    padding-top: 90px;
+}
+
+.section h1 {
+    width: 40%;
+    margin: 0 auto;
+    align-self: center;
+    font-size: 40px;
+}
+
+.choice {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.choice img {
+
+    object-fit: cover;
+}
+
+.choice__png {
+    position: relative;
+    margin: 0px -150px;
+}
+
+.feature img {
+    object-fit: cover;
+}
+
+.product {
+    padding-top: 50px;
+}
+
+
+
+
+
+
+.price_ph{
+    font-family: 'Rubik';
+    text-align: center;
+}
+.price_ph h1 {
+    font-size: 40px;
+    font-weight: 1100;
+}
+.price_ph p {
+    font-size: 16px;
+    font-weight:600;
+}
+.price3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.date{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product_date{
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.product_date_image img{
+    width: 80px;
+    height: 80px;
+}
+
+.product_date_text{
+    line-height: 20%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.date_text{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 130%;
+    margin-bottom: 50px;
+}
+
+.product_date_text p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.product_date_text h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+}
+
+.product_date_text a{
+    color: #FF4948;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+.boxing {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 190px;
+    padding-bottom: 90px;
+}
+
+
+
+.boxing__right h1 {
+    font-size: 50px;
+    width: 400px;
+}
+
+
+
+.boxing__left img {
+    width: 550px;
+}
+
+.txt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    width: 400px;
+}
+/
+.request {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 717px;
+    height: 300px;
+    background-image: url(./img/Rectangle\ 73.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.request h2 {
+    font-size: 50px;
+}
+
+.request p {
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.input {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 100px;
+}
+
+.request input {
+    border: none;
+    padding: 15px 60px 15px 20px;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.request button {
+    position: relative;
+    margin-left: -30px;
+    border: none;
+    background-color: #FF4948;
+    border-radius: 20px;
+    padding: 10px 40px;
+    color: white;
+}
+
+.request button:hover {
+    background-color: white;
+    border: solid 2px red;
+    color: red;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+    margin-top:100px ;
+}
+.back{
+    background: #DE5150;
+}
+.center a{
+    text-decoration: none;
+    color: #fff;
+}
+.center{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.right{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
